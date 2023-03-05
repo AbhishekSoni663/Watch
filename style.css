@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.clock {
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: 10px inset #ff6550;
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:768px){
+    .clock{
+        width:100%;
+    }
+    .box{
+        width:100%;
+        font-size: 40px;
+    }
+}
